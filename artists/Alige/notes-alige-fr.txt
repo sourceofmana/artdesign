@@ -1,0 +1,198 @@
+Evol Online
+
+• Liens - Evol
+https://gitlab.com/evol/
+https://www.transifex.com/akaras/evol/
+http://wiki.evolonline.org/releases/aurora1.1
+https://github.com/herculesws/hercules
+https://beta.etherpad.org/p/TMW-Evol_tileset
+https://github.com/wushin/tmwa-server-data/blob/master/world/map/conf/atcommand_athena.conf
+https://github.com/themanaworld/tmwa-client-data/blob/master/license.md
+https://beta.etherpad.org/p/TMW-Evol_items
+https://www.dropbox.com/sh/zu1k3fi7zhq85pv/AAAsJKiHj8WCvUhGZgKcXsGda?dl=0
+http://lorcblog.blogspot.fr/2009/08/thee-hundred-and-sixty-something.html
+
+• Mettre à jour les collision tiles
+cd Git/evol-all/tools/hercules/ && ./convert_tmx_to_mapcache.py && cd ../../server-data && git commit -am "Update map cache."
+
+• Lancer le TestXML
+tools/testxml/
+./testxml.py
+
+• Tester un particle effect sur soi-même
+/testparticle graphics/particles/exemple.xml
+
+• Créer une nouvelle fork
+git clone git@gitlab.com:xxx/xxx.git
+git remote -v
+git remote add upstream git@gitlab.com:xxx/xxx.git
+git fetch upstream
+
+• Créer une nouvelle branch
+git checkout master -b <branch-name>
+git add
+git commit
+git push origin <branch-name>
+
+• Mettre à jour une branch
+git checkout master
+git pull upstream master
+git push origin master
+git checkout <branch-name>
+git rebase master
+git push -f origin <branch-name>
+
+• Reset une branch
+git fetch origin
+git reset --hard origin/master
+
+• Créer une Merge Request
+git checkout master
+git pull origin master
+git checkout <branch-name>
+git rebase master
+<commit changes>
+git push origin <branch-name>
+<merge button>
+
+• Recréer la branch 'master'
+git checkout <other branch-name>
+git branch -D master
+git checkout upstream/master -b master
+
+• Scripts
+- parler aux pious du market devrait faire quelque chose, par exemple pousser un petit cri, si rien, ne devraient pas être targetables
+- talk()
+- revoir toutes la description de tous les scripts
+- la quête de Moon (avec les crocs claws) : random de claws + reward (+ quests.xml à adapter)
+- % de devenir inconscient lorsqu'on est frappé par une croconut ! -> retravailler le script pour éviter de tuer un joueur level ≤ 5
+- ajouter un petit cadeau caché derrière un tonneau dans le port pour découvrir un item (une dent de requin ?)
+- la lollypop de Katja devrait être autre chose + ajouter récompense d'expérience au moment où on trouve son frère
+- si un NPC qui marche est bloqué à un moment, "reset paths"
+- ajouter un progressbar dans le script de la peche
+    - "This command works almost like sleep2, but displays a progress bar above the head of the currently attached character (like cast bar). Once the given amount of seconds passes, the script resumes. If the character moves while the progress bar progresses, it is aborted and the script ends. The color format is in RGB (0xRRGGBB). The color is currently ignored by the client and appears always green."
+- changer le script : inventoryplace
+- bonus permanent après avoir tip un certain montant, valeur totale parmi tous les bartenders
+- ajouter plus d'options en général pour les scripts pour créer plus de discussion si le joueur le veut
+
+• Divers
+- ajouter un petit cadenas sur les portes qu'on ne peut pas ouvrir
+- créer de grandes bannières pour la ville d'Artis
+- animer les bannières de la ville
+- étendre la couleur des troncs d'arbre
+- retravailler les troncs d'arbre coupés
+- ajouter quelques herbes sur la falaise de ground.png
+- ajouter les hublots à l'extérieur du bateau
+- ajouter des bouées au grand bateau
+- ajouter une tête au bateau
+- créer des tableaux pour les murs intérieurs des maisons
+- changer la palette de tous les poissons dans artis-dock.png
+- créer une nageoire dorsale de requin qui tourne autour de l'île Drasil
+- animation d'un poisson qui saute hors de l'eau
+- ajouter les animated leaves sur la map d'Artis
+- retravailler les lits
+- créer des lits de côté
+- ajouter des mouettes (en ombre) qui tournent, au dessus du port d'Artis par exemple
+- ajouter des oiseaux qui volent rapidement dans le ciel (une ombre seulement serait pas mal aussi)
+- travailler sur la tileset, de préférence animée, du "Confused Tree"
+- corriger la table et ajouter ses tiles manquantes dans artis-indoor-fringe tileset
+- créer des chaises retournées
+- commencer à travailler sur le wiki de TMW et tenir Tezer au courant
+- les joueurs de devraient pas "miss" les manana trees et les crocotrees
+- ajouter un status effect pour les effets bizarres des items
+- créer d'autres coupes de cheveux
+- cacher les coupes de cheveux du perso lorsqu'il porte le tonneau ?
+- s'occuper des pious pour indiquer aux nouveaux joueurs de les attaquer
+- ajouter le signe de la Légion au radeau et aux drapeaux de la ville (+ sur les ponts)
+- porte pour montrer de monter à l'étage pas très visible/compréhensible
+- les maps ne sont pas assez grandes pour grands écrans -> ajouter tile de fond / plus grandes cartes
+- pourquoi revive c'est pas la moitié de la santé au début du jeu ? (au moins si niveau <5)
+- afficher certaines fenêtres automatiquement pour la première fois : quests, inventaire, etc...
+- refaire l'icône du fancy hat et les couleurs du fancy hat
+- finir la spritesheet du bow
+- revoir la "hurt" animation des monstres, car elle n'est plus supportée par ManaPlus
+- revoir le fichier units.xml dans client-data pour voir si ça fonctionne correctement
+- empêcher les pikpiks & dummies de se superposer les uns au dessus des autres (séparément hein)
+- créer l'arbre à poires
+- revoir tous les effets des objets d'Evol (dans item_db puis après items.xml) (le Barrel devrait empêcher d'attaquer par exemple)
+- corriger itemfields.xml
+- particle effect/accessory layer qui montre qu'un monstre marche sur l'eau ou est sous l'eau
+- faire une tileset de pilliers de bois pour créer un fort, pour Hurnscald
+- mettre à jour l'icône du package.png et l'implémenter dans le jeu
+- ajouter un temps entre chaque voyage, avant de pouvoir sortir sur le pont du bateau, et créer une map en pleine mer
+- créer une tentacule de squid qui montre contre la coque du bâteau, un peu différente sur chaque map où le bateau se trouve
+- créer des vagues pour le bateau en mer
+- ajouter un signe et nom pour le 3ème sexe du jeu
+- ajouter de petits crustacés accrochés à l'extérieur de la coque du bateau de Nard
+- créer un manuel d'utilisation des shops (avec les timers)
+- créer un manuel d'utilisation des pets et l'ajouter à Selim
+- créer un petit bateau : horizontal & vertical
+- créer un nouveau matelas pour le bateau / ajouter d'autres lits
+- créer une Pique de pikpik et l'introduire correctement
+- ajouter différents types d'objets/équipements : communs, rares, légendaires, artefact
+- créer de nouvelles emotes
+- vérifier les spawn rates des monstres (eAspawn / eAdeath)
+- les pikpiks ne devraient pas miss !
+- warps & map names
+- refaire l'icône pumpkinjuice.png
+- refaire l'icône pumpkin.png
+- utiliser la même palette de couleurs pour le pumpkin hat et les autres pumpkins (item, npc et mob)
+- refaire le tapis utilisé dans le bateau, avec moins de couleurs
+- refaire les spritesheet du corps (M+F+U) avec les bonnes frames + adapter les vêtements
+- décider des noms des différents attributs/races/skins
+- changer la sit animation du piou
+- le piou ne devrait pas pouvoir voler
+- baisser & ajuster les brassards sur la spritesheet dans les directions haut & bas, plus vers les poignets, pas les bras
+- ajouter un piou qui saute sur un nénuphar pour créer de petites vagues, lorsqu'on clique dessus il saute : script
+- ajouter une animation de spawn des fluffy
+- expliquer aux joueurs comment le pet fonctionne via un manuel + introduire le manuel
+- indiquer les bénéfices du pet utilisé quand on met le curseur dessus
+- distinguer les gardes des villageois avec un nouveau casque et des vêtements de la même couleur que du drapeau de la ville
+- indiquer de bien se rapprocher quand on veut acheter/vendre
+- ajouter un poison à l'oursin
+- créer un sprite pour le bouclier
+- créer un Sailor Shirt : shirt avec rayures
+- changer le particle effect de mal de tête / en créer un à partir du NPC de l'île, sous le crocotier
+- ajouter un fade out / in (noir) quand on change de map via un script
+- ajouter un fade out / in (blanc avec titre Evol Online) quand on commence le jeu, après l'intro sur le radeau
+- ajouter un layer rouge qui apparait quand on se fait toucher et qu'on a moins de 25% de ses hp
+- quand on se connecte (en choisissant son perso) fade out de black au jeu
+
+• ManaPlus
+- changer les particules de sélection (Mobs, PNJs, Players, etc...) de ManaPlus ainsi que ses couleurs
+- ajouter un son "send" lorsque les maj sont terminées
+- désactiver la transparence sur les équipements spritesheets au dessus du character (le rend vraiment dégueu)
+- permettre les traductions de ManaPlus sur Mac OS X
+- ManaPlus (pour mac) ne sauvegarde pas correctement les choix dans Input (JButton? réapparait lorsqu'on redémarre le client)
+- ajouter une option pour enlever du (Debug Tab) les messages de mort
+- permettre certains particle effects d'apparaître au dessus du calque "Over" dans les maps
+- ajouter couleur jaune dans la barre d'argent (E)
+- ajouter une gm commande pour toggle send_gm: true  afin que les gms puissent cacher leur nom tout vert
+- ajouter un field "heal" dans items.xml / afficher "Effect" pour les objets de l'inventaire
+- les lignes de chat au dessus de la tête ne bougent plus automatiquement
+- permettre la traduction au pluriel des items
+- les sound effects "event-success" et "event-fail" ne doivent être entendus que par le joueur en question
+- créer des icônes pour chacune des fenêtres (ex: Carte, Inventaire, Compétences, etc...)
+
+• SFX
+- ajouter un son de ronflement
+- sons pour couper les cheveux + teindre les cheveux
+- ajuster le délai du bruit de mort d'un Crocotree (croconut qui tombe)
+- ajouter un son pour la noix de croco qui tombe sur la tête de Tarlan puis des bruits de petits oiseaux quand il est étourdit
+- bruit de Silvio qui boit/bruits de bouteilles/hoquet
+- son quand on ouvre un livre (item)
+- son "tip" Jenna dans l'Inn
+- revoir les sons de tous les monstres en jeu
+    - piou
+    - piousse
+    - tortuga
+    - ratto
+    - croc
+    - little blub
+    - blub
+    - crocotree
+    - plushroom field
+    - pikpik
+    - manana tree
+    - pillar dummy
+    - fluffy
