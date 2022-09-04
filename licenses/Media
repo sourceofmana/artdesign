@@ -1,0 +1,21 @@
+CC BY-SA 4.0: licensed under Creative Commons Attribution-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-sa/4.0/
+See also the CC BY-SA 4.0 file.
+
+You must include a link to https://gitlab.com/sourceofmana in your credits along with appropriate author references and attributions.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Folder                                                            subpath/
+    path/to/the/licensed/work.something (Authors' Nick)             License                      (Contributors' Nick)*
+*(-): No additional contributor.
+
+# Art                                                               Art/
+## Tilesets                                                         Tilesets/
+    Cave.xcf (Reid)                                                 CC BY-SA 4.0                 (Len, Micksha)
+    Cave Collisions.xcf (Reid)                                      CC BY-SA 4.0                 (-)
+    Cave Variations.xcf (Reid)                                      CC BY-SA 4.0                 (Len, Micksha)
+
+## Monsters                                                         Monsters/
+    Phatyna.xcf (Reid)                                              CC BY-SA 4.0                  (Neoriceisgood)
+    SlimeKing.xcf (Reid)                                            CC BY-SA 4.0                  (Neoriceisgood)
