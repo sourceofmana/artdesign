@@ -1,0 +1,101 @@
+GPLv2: Licensed under GNU General Public License version2.
+http://www.gnu.org/licenses/gpl-2.0.html
+See also the GPL file.
+
+CC BY-SA 3.0: Licensed under Creative Commons Attribution-ShareAlike 3.0 Unported.
+http://creativecommons.org/licenses/by-sa/3.0/
+See also the CC BY-SA 3.0 file.
+
+You must include a link to http://evolonline.org in your credits along with the author's name.
+
+For Evol Online contributor and license ressources, check the following links:
+http://wiki.evolonline.org/contributors
+https://www.gitorious.org/evol/clientdata/blobs/master/CONTRIBUTORS
+http://wiki.evolonline.org/license
+https://www.gitorious.org/evol/evol-media/blobs/master/LICENSE
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Folder
+    path/to/the/licensed/work.something (Authors' Nick)                     (License)             (Contributors' Nick)
+
+# Equipment
+    Equipment/hathathat.xcf (COLLECTION)                                    (CC BY-SA 3.0 / GPLv2)(-)
+    Equipment/legionarmor-female.xcf (Reid)                                 (CC BY-SA 3.0)        (Saphy)
+    Equipment/legionarmor-male.xcf (Reid)                                   (CC BY-SA 3.0)        (Saphy)
+    Equipment/legionarmor-male.xcf (Reid)                                   (CC BY-SA 3.0)        (Saphy)
+    Equipment/sprites MASTER.xcf (COLLECTION)                               (CC BY-SA 3.0 / GPLv2)(-)
+    Equipment/vneckjumper-female.xcf (Reid, Saphy)                          (CC BY-SA 3.0)        (-)
+    Equipment/vneckjumper-male.xcf (Reid, Saphy)                            (CC BY-SA 3.0)        (-)
+
+# Icon
+  # 16*16
+    Icon/16/amulet.png (Reid)                                               (CC BY-SA 3.0)        (-)
+    Icon/16/blue-shield-1.png (Reid)                                        (CC BY-SA 3.0)        (-)
+    Icon/16/blue-shield-2.png (Reid)                                        (CC BY-SA 3.0)        (-)
+    Icon/16/potionicons.xcf (Micksha)                                       (CC BY-SA 3.0)        (-)
+
+# NPC
+    NPC/Artis_indoor_door.xcf (Reid)                                        (CC BY-SA 3.0)        (IvanMorve)
+    NPC/Chelios/Chelios_1.xcf (ChefChelios)                                 (CC BY-SA 3.0)        (Reid)
+    NPC/Chelios/Chelios_2.xcf (ChefChelios)                                 (CC BY-SA 3.0)        (Reid)
+    NPC/Dolfina.xcf (Reid)                                                  (CC BY-SA 3.0)        (-)
+    NPC/Don/Don.xcf (Nard, Reid)                                            (CC BY-SA 3.0)        (-)
+    NPC/Eugene/Eugene_1.xcf (Reid)                                          (CC BY-SA 3.0)        (Kansu)
+    NPC/Eugene/Eugene_2.xcf (Reid)                                          (CC BY-SA 3.0)        (Kansu)
+    NPC/Eugene/Eugene_3.xcf (Reid)                                          (CC BY-SA 3.0)        (Kansu)
+    NPC/Fishing/Bait.xcf (Reid)                                             (CC BY-SA 3.0)        (-)
+    NPC/Jenna.xcf (Reid)                                                    (CC BY-SA 3.0)        (-)
+    NPC/Terry/Terry_1.xcf (Reid)                                            (CC BY-SA 3.0)        (Salva)
+    NPC/Terry/Terry_2.xcf (Reid)                                            (CC BY-SA 3.0)        (Salva)
+    NPC/Terry/Terry_3.xcf (Reid)                                            (CC BY-SA 3.0)        (Salva)
+
+# Other
+    Other/Map.xcf (Reid)                                                    (CC BY-SA 3.0)        (-)
+    Other/Bridge.gbr (Wushin)                                               (CC BY-SA 3.0)        (-)
+    Other/Overworld.png (WildX)                                             (CC BY-SA 3.0)        (Wushin, Micksha)
+    Other/OverworldStylized.xcf (WildX, Micksha)                            (CC BY-SA 3.0)        (-)
+    Other/Ship.gbr (Wushin)                                                 (CC BY-SA 3.0)        (-)
+    Other/worldmap_mick_0.4.png (Micksha)                                   (CC BY-SA 3.0)        (-)
+    Other/worldmap_mick_3.1.png (Micksha)                                   (CC BY-SA 3.0)        (-)
+    Other/worldmap_mick_3.1.xcf (Micksha)                                   (CC BY-SA 3.0)        (-)
+    Other/WorldMap.tmx (Wushin)                                             (CC BY-SA 3.0)        (-)
+    Other/Sprites/firedummy2.xcf (Micksha)                                  (CC BY-SA 3.0)        (-)
+    Other/Sprites/growing flowers.xcf (Micksha)                             (CC BY-SA 3.0)        (-)
+    Other/Sprites/rowboat.xcf (Micksha)                                     (CC BY-SA 3.0)        (-)
+
+# Skill
+    Skill/skill.xcf (Reid)                                                  (CC BY-SA 3.0)        (-)
+    Skill/skill icons.xcf (Micksha)                                         (CC BY-SA 3.0)        (-)
+
+# Tiled animation
+    Tiled animation/water.tsx (Reid)                                        (CC BY-SA 3.0)        (-)
+
+# Tileset
+    Tileset/Artis_accessories.xcf (IvanMorve, Reid)                         (CC BY-SA 3.0)        (-)
+    Tileset/Artis_blockwall.xcf (Hal9000, Reid)                             (CC BY-SA 3.0)        (-)
+    Tileset/Artis_bridge.xcf (Hal9000)                                      (CC BY-SA 3.0)        (EJlol, Reid)
+    Tileset/Artis_cellar.xcf (Hal9000, Reid)                                (CC BY-SA 3.0)        (-)
+    Tileset/Artis_dock.xcf (Reid)                                           (CC BY-SA 3.0)        (-)
+    Tileset/Artis_dock_debug.png (Reid)                                     (CC BY-SA 3.0)        (-)
+    Tileset/Artis_door.xcf (Reid)                                           (CC BY-SA 3.0)        (-)
+    Tileset/Artis_fence.xcf (Reid)                                          (CC BY-SA 3.0)        (Kestrel)
+    Tileset/Artis_harbour.xcf (EJlol, Reid)                                 (CC BY-SA 3.0)        (-)
+    Tileset/Artis_harbour_independant_layer.xcf (EJlol, Reid)               (CC BY-SA 3.0)        (-)
+    Tileset/Artis_house.xcf (IvanMorve, Reid)                               (CC BY-SA 3.0)        (-)
+    Tileset/Artis_indoor.xcf (Reid)                                         (CC BY-SA 3.0)        (IvanMorve, Lien)
+    Tileset/Artis_lamps.xcf (Alige)                                         (CC BY-SA 3.0)        (Reid)
+    Tileset/Artis_market.xcf (EJlol, IvanMorve, Reid)                       (CC BY-SA 3.0)        (-)
+    Tileset/Artis_pavement.xcf (IvanMorve, Reid)                            (CC BY-SA 3.0)        (-)
+    Tileset/Artis_waterblockwall.xcf (Hal9000, Reid)                        (CC BY-SA 3.0)        (-)
+    Tileset/Ground.xcf (FotherJ, IvanMorve, Len, Reid)                      (CC BY-SA 3.0)        (Crush)
+    Tileset/hurns_cave.xcf (Micksha)                                        (CC BY-SA 3.0)        (-)
+    Tileset/Hurns_ground.xcf (FotherJ, IvanMorve, Len, Reid)                (CC BY-SA 3.0)        (Crush)
+    Tileset/LAVA.xcf (Micksha)                                              (CC BY-SA 3.0)        (-)
+    Tileset/NewTrees.xcf (Micksha)                                          (CC BY-SA 3.0)        (-)
+    Tileset/Ship.xcf (Lunovox)                                              (GPLv2)               (Hal9000,  Reid, Saci)
+    Tileset/Ship_indoor.xcf (Lunovox)                                       (GPLv2)               (Reid, Saci)
+    Tileset/Ship_mast.xcf (Lunovox)                                         (GPLv2)               (Alige, Hal9000, Reid, Saci)
+    Tileset/water-flow.xcf (Micksha)                                        (CC BY-SA 3.0)        (-)
+
+(-): No other contributor.
