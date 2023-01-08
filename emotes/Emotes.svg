@@ -15,9 +15,9 @@
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="Emotes.svg"
-   inkscape:export-filename="D:\Projects\SoM\PrivArt\emotes\base6bis.png"
-   inkscape:export-xdpi="4.5118423"
-   inkscape:export-ydpi="4.5118423">
+   inkscape:export-filename="emote.png"
+   inkscape:export-xdpi="44.450001"
+   inkscape:export-ydpi="44.450001">
   <defs
      id="defs2">
     <linearGradient
@@ -1003,11 +1003,11 @@
        inkscape:collect="always"
        id="linearGradient3495">
       <stop
-         style="stop-color:#ffe0e0;stop-opacity:1"
+         style="stop-color:#fffee8;stop-opacity:1"
          offset="0"
          id="stop3493" />
       <stop
-         style="stop-color:#ff0002;stop-opacity:0"
+         style="stop-color:#ffff00;stop-opacity:0"
          offset="1"
          id="stop3491" />
     </linearGradient>
@@ -1015,11 +1015,11 @@
        inkscape:collect="always"
        id="linearGradient3487">
       <stop
-         style="stop-color:#61202b;stop-opacity:1"
+         style="stop-color:#614b24;stop-opacity:1"
          offset="0"
          id="stop3483" />
       <stop
-         style="stop-color:#ff0025;stop-opacity:0"
+         style="stop-color:#ffff00;stop-opacity:0"
          offset="1"
          id="stop3485" />
     </linearGradient>
@@ -2438,11 +2438,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.63795219"
+     inkscape:zoom="0.62108679"
      inkscape:cx="306.64231"
      inkscape:cy="170.73564"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1283"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -2466,7 +2466,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
         <dc:creator>
@@ -2496,7 +2496,7 @@
      inkscape:label="Yellow"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:none"
+     style="display:inline"
      transform="translate(-39.492447,-70.997709)">
     <ellipse
        style="display:inline;fill:#000000;stroke-width:0.0346604"
@@ -2541,7 +2541,7 @@
      inkscape:label="Red"
      inkscape:groupmode="layer"
      id="g1283"
-     style="display:inline"
+     style="display:none"
      transform="translate(-39.492447,-70.997709)">
     <ellipse
        style="display:inline;fill:#000000;stroke-width:0.0346604"
@@ -2588,7 +2588,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Evil"
-     transform="translate(2.0117186e-7,5.0446486)">
+     transform="translate(2.0117186e-7,5.0446486)"
+     style="display:none">
     <path
        id="path1037-6-8-6-9-3-7-0"
        style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.0237416"
@@ -2699,7 +2700,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="smile"
-     style="display:none"
+     style="display:inline"
      transform="translate(2.0117186e-7,5.0446486)">
     <path
        inkscape:path-effect="#path-effect3049;#path-effect3051"
