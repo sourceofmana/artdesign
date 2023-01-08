@@ -1,6 +1,6 @@
 # Source of Mana Art & Design
 
-Here you will find SoM's graphics assets as well as other media.
+Welcome to the art and design git repository. This repository is now public but if you find any licensing issues, feel free to contact us at team@sourceofmana.org
 
 #
 
