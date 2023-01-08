@@ -1,6 +1,6 @@
-# Privart
+# Source of Mana Art & Design
 
-Welcome to privart. You should keep the art priv.
+Here you will find SoM's graphics assets as well as other media.
 
 #
 
