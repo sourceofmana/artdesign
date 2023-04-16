@@ -1,0 +1,50 @@
+[{
+	"chapter": 1,
+	"pages": 1,
+	"title": "Table_of_Contents"
+},
+{
+	"chapter": 2,
+	"pages": 3,
+	"title": "Introduction"
+},
+{
+	"chapter": 3,
+	"pages": 1,
+	"title": "Why_do_we_need_guidelines"
+},
+{
+	"chapter": 4,
+	"pages": 1,
+	"title": "File_specifications"
+},
+{
+	"chapter": 5,
+	"pages": 2,
+	"title": "Resource_specifications"
+},
+{
+	"chapter": 6,
+	"pages": 1,
+   "title": "Perspective"
+},
+{
+	"chapter": 7,
+	"pages": 1,
+   "title": "Light_source"
+},
+{
+	"chapter": 8,
+	"pages": 1,
+   "title": "Proportions"
+},
+{
+	"chapter": 9,
+	"pages": 1,
+   "title": "Textures"
+},
+{
+	"chapter": 10,
+	"pages": 1,
+   "title": "Technology"
+}]

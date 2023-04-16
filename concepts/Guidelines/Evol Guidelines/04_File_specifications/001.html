@@ -1,0 +1,25 @@
+<h1>4. File specifications</h1>
+<h2>4.1 File formats</h2>
+<p>In order for art to be useful for Evol Online, it needs to be in the
+specified format. Evol Online accept that two file formats for graphics
+and one file format for palettes.</p>
+<p>The official graphic file format is the PNG format. This is
+valid for all kind of graphics: spritesheets, tilesets, graphic effects,
+and others.</p>
+<p>The other file format we accept is the XCF File format. The XCF is a
+popular file format that can be opened by many editors, including GIMP
+and Paint.net. This file format however can not be read by the client
+and has to be converted to the PNG format before it can be used. However
+the PNG format cannot contain any layers, so by using PNG we will lose
+data. That is why we prefer to have both the PNG and the XCF files.</p>
+<p>For color palettes we use the GPL file format. This format can be
+opened by GIMP. This file format can however also be opened in a notepad
+application, and be used in other graphic programs like Paint.net.</p>
+<h2>4.2 Size specifications</h2>
+<p>The width and the height of the sprites needs to be a power of 2.
+This is cause of an old limitation of OpenGL, which is used by the
+client. The modern OpenGL doesn't require this anymore, however it will
+still perform better that way, and thus it is a good practice to keep in
+mind. The maximum width and height of a sprite is 512 pixels. This means
+that valid values for the width and height are: 1, 2, 4, 8, 16, 32, 64,
+128, 256 and 512 pixels.</p>
