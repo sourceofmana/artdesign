@@ -1,0 +1,13 @@
+Based on the frog man from Redshrike's tower defence prototype (https://opengameart.org/content/tower-defense-prototyping-assets-4-monst...).
+
+The sideways attack and hopping frames are Redshrike's unmodified originals, the north and south frames and death animation are my own adaptations based on his work.
+I plan to add a version without the trident and with an attack where he opens his mouth and attacks with his tongue, but that's a little more work.
+
+Should work ok with LPC assets, although the palette does not match the LPC assets. I tried recolouring it, but none of the green ramps in the LPC palette work with this guy. Suggestions for that are welcome.
+
+CHANGES:
+* Added a variation with a crown by Stephen Challener (Redshrike)
+* Used Puffolotti's alternate animation for the legs.
+
+Copyright/Attribution Notice: 
+Stephen Challener (Redshrike) and Evert, hosted by OpenGameArt.org. If you use the revised leg animations for the sideward hop, credit Puffolotti. Include a link to this page, as well as the original work by Redshrike.
